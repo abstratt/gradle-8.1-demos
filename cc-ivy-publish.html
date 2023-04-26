@@ -1,0 +1,16 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
+</head>
+<body>
+  <div id="player"></div>
+  <script src="asciinema-player.min.js"></script>
+  <script>
+    AsciinemaPlayer.create(
+      'cc-ivy-publish.sh.cast',
+      document.getElementById('player'),
+      { cols: 118, rows: 28, speed: 1.5, fit: "height", idleTimeLimit: 2, autoPlay: true  }
+    );
+  </script>
+</body>
+</html>
